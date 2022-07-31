@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #1d1f21;
 }
 
 a {
@@ -13,6 +14,93 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.logo{
+  font-family: lobster;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1d1f21;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #2bbc8a; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2bbc8a; 
+}
+
+/* .underlineEffect {
+  position: relative;
+  padding: 0 10px;
+}
+
+.underlineEffect:after {
+  content: "";
+  position: relative;
+  background-color: #2bbc8a;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.underlineEffect:hover:after {
+  width: 100%;
+} */
+
+.underlineEffect {
+  position: relative;
+}
+
+.underlineEffect:after{
+
+  content: "";
+  position: absolute;
+  background-color: #2bbc8a;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+.underlineEffect:hover{
+  color: #2bbc8a;
+}
+
+.underlineEffect:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* .hoverShadow {
+  border: 4px solid red;
+  outline-offset: 15px; 
+  transform: translate(300px, 250px); 
+} */
+
+.updown {
+  animation: updown 1.5s ease infinite alternate;
+}
+
+@keyframes updown {
+  from{
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(20px);
+  }
 }
 
 @tailwind base;
