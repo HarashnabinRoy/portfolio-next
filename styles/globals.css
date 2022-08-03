@@ -37,26 +37,6 @@ a {
   background: #2bbc8a; 
 }
 
-/* .underlineEffect {
-  position: relative;
-  padding: 0 10px;
-}
-
-.underlineEffect:after {
-  content: "";
-  position: relative;
-  background-color: #2bbc8a;
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-
-.underlineEffect:hover:after {
-  width: 100%;
-} */
-
 .underlineEffect {
   position: relative;
 }
