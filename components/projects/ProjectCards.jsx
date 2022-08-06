@@ -42,7 +42,7 @@ const data = [
     {
         id: "5",
         src:"/assets/projects5.jpg",
-        link: "https://github.com/HarashnabinRoy/Seasons",
+        link: "https://harashnabinroy.github.io/seasons",
         title:"Seasons",
         techs: "ReactJS CSS",
         github: "https://github.com/HarashnabinRoy/Seasons",

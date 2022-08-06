@@ -9,5 +9,5 @@ export default function Contact() {
         <ComingSoon/>
         <Footer />
     </div>
-    )
+    );
 }
