@@ -4,7 +4,7 @@ import ComingSoon from "../shared/ComingSoon";
 
 const Experience = () => {
     return(
-        <div className="py-20 px-40 min-h-screen">
+        <div className="py-20 md:px-40 px-6 min-h-screen">
             <Heading number="03" text="My Experience"/>
             <div className="flex justify-center items-center min-h-[80vh]">Coming Soon..</div>
         </div>
