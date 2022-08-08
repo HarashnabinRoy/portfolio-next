@@ -9,16 +9,12 @@ const AboutMe = () => {
     return(
         <div className="md:py-20 pb-20 pt-10 md:px-40 px-8 min-h-screen snap-start"> 
             <Heading number="01" text="About Me"/>
-            <div className="flex py-[50px] md:flex-row flex-col gap-20">
+            <div className="flex mt-20 py-[50px] md:flex-row flex-col gap-20">
                 <div className=" md:w-[800px] tracking-tighter px-6 md:px-20">
-                    <p className=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia exercitationem, quas
-                     enim saepe debitis ea fugiat assumenda magni eum veritatis in eaque, itaque non, nesciunt aliquid soluta alias laborum porro 
-                     consectetur eveniet minima? Fugit sunt totam aut culpa dicta asperiores voluptatum. Error eveniet quos cupiditate itaque ipsum 
-                     eum dolores eligendi voluptate enim, obcaecati numquam veniam, voluptatum eius quis. Magni ab accusamus blanditiis consequatur 
-                     saepe inventore illum dolorem aliquam necessitatibus, nisi commodi! Pariatur expedita, eligendi eum, voluptates recusandae 
-                     delectus totam, maxime molestias reiciendis qui quas alias ipsam provident quis. Corporis libero, beatae adipisci dicta quisquam
-                     veritatis rem asperiores ducimus!</p>
-                        <p className="mt-4">Here are a few technologies that I like to play with: </p>
+                    <p className=" ">Hello! My name is Harashnabin and I enjoy creating things that live on the internet. My interest in web development started back in 2016 when I decided to join the school exhibition and designed a website for my school — turns out hacking together a custom website taught me a lot about HTML & CSS!</p>
+                    <p className="mt-4">Fast-forward to today, and I've had the privilage of working on <span className="underlineEffect text-[#2bbc8a]">various projects</span>, participate in <span className="underlineEffect text-[#2bbc8a]">hackathons</span>, and working at <span className="underlineEffect text-[#2bbc8a]">student-led clubs</span> in college. My main focus these days is building accessible and inclusive products.</p>
+                    <p className="mt-4">I also recently have grown an interest in <span className="underlineEffect text-[#2bbc8a]">Blockchain and Web3</span> and am doing various courses and research work on it.</p>
+                    <p className="mt-4">Here are a few technologies that I like to play with: </p>
                 </div>
                 <div className="flex items-center justify-center rounded-lg">
                     <span className="hoverShadow">
@@ -26,16 +22,16 @@ const AboutMe = () => {
                     </span>
                 </div>
             </div>
-            <div className="flex md:flex-row flex-col gap-20 justify-center w-[50%]">
+            <div className="flex md:flex-row flex-col md:gap-20 gap-0 justify-center w-[50%]">
                 <ol className="md:ml-16 ml-6 text-sm">
                     <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> HTML</li>
                     <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> CSS</li>
                     <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> JavaScript</li>
                 </ol>      
                 <ol className="text-sm">
-                    <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> ReactJS </li>
-                    <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> NextJS </li>
-                    <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> ExpressJS</li>
+                    <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> React.js </li>
+                    <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> Next.js </li>
+                    <li><FontAwesomeIcon icon={ faCaretRight } className="text-xs transform -translate-y-[2px] text-[#2bbc8a]" /> Express.js</li>
                 </ol>            
             </div>
         </div>
