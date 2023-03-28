@@ -12,7 +12,6 @@ const AboutMe = () => {
                 </div>
                 <div className="w-1/3  items-center rounded-lg">
                     <Image src="/assets/aboutme.png" alt="Picture of me :)" width={300} height={300} className="rounded-lg" />
-
                 </div>
             </div>
         </div>

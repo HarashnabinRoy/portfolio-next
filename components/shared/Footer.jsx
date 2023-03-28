@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center text-[#5d5a5a99] text-sm mb-4 cursor-pointer">
+            <div className="flex justify-center text-[#5d5a5a99] text-md mb-4 cursor-pointer">
                 <a href="mailto:harashnabin2002@gmail.com">@Harashnabin Roy 2022</a>
             </div>
         </div>
