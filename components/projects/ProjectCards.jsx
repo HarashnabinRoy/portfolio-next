@@ -25,6 +25,14 @@ const data = [
     },
     {
         id: "3",
+        src:"/assets/gehack.jpeg",
+        link: "ge-hack.vercel.app/1",
+        title: "GE Healthcare CLone using AMP",
+        techs: "NextJS Tailwind Vercel AMP",
+        github: "https://github.com/agarwalviraj/ge-hack",
+    },
+    {
+        id: "3",
         src:"/assets/projects3.jpg",
         link: "https://harashnabinroy.github.io/RecipeApp/",
         title:"Recipe App",
