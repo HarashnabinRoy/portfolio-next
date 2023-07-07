@@ -16,10 +16,6 @@ a {
   box-sizing: border-box;
 }
 
-.logo{
-  font-family: lobster;
-}
-
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -35,6 +31,11 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #2bbc8a; 
+}
+
+.logo:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .underlineEffect {

@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className=" md:w-[800px] tracking-tighter px-6 md:px-20">
                     <p className=" ">Hello! My name is Harashnabin and I enjoy creating things that live on the internet. My interest in web development started back in 2016 when I decided to join the school exhibition and designed a website for my school — turns out hacking together a custom website taught me a lot about HTML & CSS!</p>
                     <p className="mt-4">Fast-forward to today, and I've had the privilage of working on <span className="underlineEffect text-[#2bbc8a]">various projects</span>, participate in <span className="underlineEffect text-[#2bbc8a]">hackathons</span>, and working at <span className="underlineEffect text-[#2bbc8a]">student-led clubs</span> in college. My main focus these days is building accessible and inclusive products.</p>
-                    <p className="mt-4">I also recently have grown an interest in <span className="underlineEffect text-[#2bbc8a]">Blockchain and Web3</span> and am doing various courses and research work on it.</p>
+                    <p className="mt-4">I've recently grown an interest in <span className="underlineEffect text-[#2bbc8a]">Blockchain and Web3</span> and am doing various courses and research work on it.</p>
                     <p className="mt-4">Here are a few technologies that I like to play with: </p>
                 </div>
                 <div className="flex items-center justify-center rounded-lg">
