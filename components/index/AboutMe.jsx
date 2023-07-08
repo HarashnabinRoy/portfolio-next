@@ -7,7 +7,7 @@ import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = () => {
     return(
-        <div className="md:py-20 pb-20 pt-10 md:px-40 px-8 min-h-screen snap-start"> 
+        <div className="md:py-20 pb-20 pt-10 md:px-40 px-8 snap-start"> 
             <Heading number="01" text="About Me"/>
             <div className="flex mt-20 py-[50px] md:flex-row flex-col gap-20">
                 <div className=" md:w-[800px] tracking-tighter px-6 md:px-20">
@@ -18,7 +18,7 @@ const AboutMe = () => {
                 </div>
                 <div className="flex items-center justify-center rounded-lg">
                     <span className="hoverShadow">
-                        <Image src="/assets/aboutme.png" alt="Picture of me :)" width={300} height={300} className="rounded-lg" />
+                        <Image src="/assets/aboutme.jpeg" alt="Picture of me :)" width={300} height={300} className="rounded-lg" />
                     </span>
                 </div>
             </div>

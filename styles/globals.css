@@ -108,6 +108,10 @@ a {
   transform: rotateY(180deg);
 }
 
+.text-red {
+  color: red;
+}
+
 
 @keyframes updown {
   from{
