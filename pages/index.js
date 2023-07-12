@@ -4,9 +4,11 @@ import AboutMe from "../components/index/AboutMe";
 import Education from "../components/index/education";
 import Experience from "../components/index/Experience";
 import Footer from "../components/shared/Footer";
+import { ColorProvider } from "../components/shared/Footer/colorContext";
 
 export default function Home() {
     return(
+        <ColorProvider>
         <div className="snapping font-oxygen bg-[#1d1f21] text-[#c9cacc] min-h-screen">
             <Navbar />
             <div className="snapping-child">
@@ -25,5 +27,6 @@ export default function Home() {
                 <Footer />
             </div>
         </div>
+        </ColorProvider>
     );
 }

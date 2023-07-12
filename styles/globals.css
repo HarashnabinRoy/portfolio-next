@@ -108,9 +108,14 @@ a {
   transform: rotateY(180deg);
 }
 
-.text-red {
-  color: red;
+.ctext-weed:hover{
+  color: #2bbc8a;
 }
+
+.ctext-pulse:hover {
+  color: #17b8bd;
+}
+
 
 
 @keyframes updown {

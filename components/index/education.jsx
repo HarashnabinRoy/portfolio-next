@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import Heading from "./Heading";
-import EducationCard from "./Experience/EducationCard";
+import EducationCard from "./Education/EducationCard";
+import { ColorContext } from "../shared/Footer/colorContext";
 
 const Education = () => {
+    const { color } = useContext(ColorContext);
+
     return(
         <div className="py-20">
             <div className="flex flex-col md:px-[150px] px-6 just gap-y-20 ">

@@ -3,13 +3,17 @@ import ComingSoon from "../components/shared/ComingSoon";
 import ProjectsMain from "../components/projects/ProjectsMain";
 import Footer from "../components/shared/Footer";
 import Image from "next/image";
+import { ColorProvider } from "../components/shared/Footer/colorContext";
+
 
 export default function Projects() {
     return(
     <div className="font-oxygen bg-[#1d1f21] text-[#c9cacc] min-h-screen">
+        <ColorProvider>
         <Navbar />
         <ProjectsMain />
         <Footer />
+        </ColorProvider>
 
 
         {/* <div className="flex justify-center text-6xl m-20 gap-8">

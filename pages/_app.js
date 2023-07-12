@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Harashnabin Roy | Personal Website & Portfolio</title>
       </Head>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </div>
   );
 }
