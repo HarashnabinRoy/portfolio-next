@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import experience1 from "./experience1";
+import { ColorContext } from "../../shared/Footer/colorContext";
 
 
 const ExperienceSelection = () => {
+    const { color } = useContext(ColorContext);
 
     const contentDefault ="These are my work experiences. Click on the buttons located on the left side of this text to check the details of each work."
     // const contentDefault = contentDefault;
@@ -46,10 +48,34 @@ const ExperienceSelection = () => {
             <div className="flex md:flex-row flex-col gap-20 mt-24 mb-16 md:mx-40 mx-6 justify-center">
                     <div className="flex md:flex-col flex-row buttons">
                         {/* <button style={{backgroundColor: `${background}`}} className=' hover:bg-[#2bbc8a]  py-2 px-6' onClick={handleSelected}>Apple</button> */}
-                        <button className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_1}>Discords.com</button>
-                        <button className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_2}>Momento LLC</button>
-                        <button className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_3}>Vetra-Green</button>
-                        <button className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_4}>POR in Clubs</button>
+                        <button 
+                            style={{backgroundColor:"#1d1f21"}}
+                            onMouseEnter={(e) => (e.target.style.backgroundColor = color)}
+                            onMouseLeave={(e) => (e.target.style.backgroundColor = '#1d1f21')}
+                            className={` ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_1}>
+                                Discords.com 
+                        </button>
+                        <button 
+                            style={{backgroundColor:"#1d1f21"}}
+                            onMouseEnter={(e) => (e.target.style.backgroundColor = color)}
+                            onMouseLeave={(e) => (e.target.style.backgroundColor = '#1d1f21')}
+                            className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_2}>
+                                Momento LLC
+                        </button>
+                        <button 
+                            style={{backgroundColor:"#1d1f21"}}
+                            onMouseEnter={(e) => (e.target.style.backgroundColor = color)}
+                            onMouseLeave={(e) => (e.target.style.backgroundColor = '#1d1f21')}
+                            className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_3}>
+                                Vetra-Green
+                        </button>
+                        <button 
+                            style={{backgroundColor:"#1d1f21"}}
+                            onMouseEnter={(e) => (e.target.style.backgroundColor = color)}
+                            onMouseLeave={(e) => (e.target.style.backgroundColor = '#1d1f21')}
+                            className={` hover:bg-[#2bbc8a] ${background ? 'bg-[#2bbc8a]' : 'bg-[#1d1f21]'} py-2 px-6`} onClick={updateContent_4}>
+                                POR in Clubs
+                        </button>
 
                         {/* <button style={{backgroundColor: onClick ? "#2bbc8a" : "#1d1f21" }} className=" hover:bg-[#2bbc8a] py-2 px-6" onClick={updateContent_3}>Google</button> */}
                     </div>

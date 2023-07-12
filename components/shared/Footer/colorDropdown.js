@@ -9,6 +9,7 @@ export default function colorDropdown() {
     //     setSelectedColor(color);
     //     onColorChange(color)
     // }
+    const { color } = useContext(ColorContext);
 
     const { updateColor } = useContext(ColorContext);
 
@@ -18,7 +19,7 @@ export default function colorDropdown() {
     };
 
     return (
-        <select onChange={handleColorChange} className="bg-[#1d1f21]">
+        <select onChange={handleColorChange} className="hover:cursor-pointer appearance-none outline-none ring-transparent bg-[#1d1f21] " style={{color:color}}>
         {/* <select> */}
             <option value="#2bbc8a">weed</option>
             <option value="#17b8bd">pulse</option>
