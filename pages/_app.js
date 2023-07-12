@@ -3,6 +3,7 @@ import '../styles/globals.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
+import { ColorProvider } from "../components/shared/Footer/colorContext";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,7 +16,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Harashnabin Roy | Personal Website & Portfolio</title>
       </Head>
-        <Component {...pageProps} />
+      <ColorProvider>
+      <Component {...pageProps} />
+      </ColorProvider>
     </div>
   );
 }
