@@ -81,8 +81,8 @@ export default function Footer() {
                     <div>
                         <FontAwesomeIcon icon={ faCodeBranch } /> v2.0.0 
                     </div>
-                    <div className="hover:cursor-pointer" >
-                        <FontAwesomeIcon icon={ faPalette } style={{color:color}}/> <ColorDropdown />
+                    <div style={{color:color}}>
+                        <FontAwesomeIcon icon={ faPalette }/> {color}
                     </div>
                 </div>
             </div>

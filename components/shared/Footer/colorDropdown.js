@@ -21,11 +21,11 @@ export default function colorDropdown() {
     return (
         <select onChange={handleColorChange} className="hover:cursor-pointer appearance-none outline-none ring-transparent bg-[#1d1f21] " style={{color:color}}>
         {/* <select> */}
-            <option value="#2bbc8a">weed</option>
-            <option value="#17b8bd">pulse</option>
-            <option value="#e2b714">Serika Yellow</option>
-            <option value="#00e980">aurora</option>
-            <option value="#79a617">terminal</option>
+            <option value="#2bbc8a">Weed</option>
+            <option value="#17b8bd">Pulse</option>
+            <option value="#e2b714">Serika</option>
+            <option value="#00e980">Aurora</option>
+            <option value="#79a617">Terminal</option>
         </select>
     )
 }
