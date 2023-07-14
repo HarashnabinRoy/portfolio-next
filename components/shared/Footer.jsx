@@ -88,7 +88,7 @@ export default function Footer() {
             </div>
 
             <div className="flex justify-center text-[#5d5a5a99] text-md mb-4 cursor-pointer">
-                <a href="mailto:harashnabin2002@gmail.com">@Harashnabin Roy 2022</a>
+                <a href="mailto:harashnabin2002@gmail.com">@Harashnabin Roy 2023</a>
             </div>
 
         </div>

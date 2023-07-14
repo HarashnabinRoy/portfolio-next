@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { ColorContext } from './colorContext';
 
 export default function colorDropdown() {
-    // const [selectedColor, setSelectedColor] = useState('weed');
+    // const [selectedColor, setSelectedColor] = useState('');
 
     // const handleColorChange = (e) => {
     //     const color = e.target.value;
