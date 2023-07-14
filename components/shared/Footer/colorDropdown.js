@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { ColorContext } from './colorContext';
 
-export default function colorDropdown() {
+export default function ColorDropdown() {
     // const [selectedColor, setSelectedColor] = useState('');
 
     // const handleColorChange = (e) => {
@@ -19,8 +19,7 @@ export default function colorDropdown() {
     };
 
     return (
-        <select onChange={handleColorChange} className="hover:cursor-pointer appearance-none outline-none ring-transparent bg-[#1d1f21] " style={{color:color}}>
-        {/* <select> */}
+        <select onChange={handleColorChange} className="hover:cursor-pointer outline-none ring-transparent bg-[#1d1f21] " style={{color:color}}>
             <option value="#2bbc8a">Weed</option>
             <option value="#17b8bd">Pulse</option>
             <option value="#e2b714">Serika</option>

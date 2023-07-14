@@ -1,9 +1,9 @@
 import React, { useState, useContext } from "react";
 import Link from "next/link";
-import { ColorContext } from "./Footer/colorContext";
-import ColorDropdown from "./Footer/colorDropdown";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPalette } from '@fortawesome/free-solid-svg-icons';
+import { ColorContext } from "./Footer/colorContext";
+import ColorDropdown from "./Footer/colorDropdown";
 
 export default function Navbar() {
     const { color } = useContext(ColorContext);
@@ -23,7 +23,8 @@ export default function Navbar() {
                     <a className="underlineEffect">.03 <span className="text-[#c9cacc]">Contact Me</span></a>
                     </Link>
                     <div>
-                        <FontAwesomeIcon icon={ faPalette }/> <ColorDropdown />
+                        <FontAwesomeIcon icon={ faPalette }/> {" "}
+                        <ColorDropdown />   
                     </div>
                     {/* <a href="/resume" className="underlineEffect">.04 <span className="text-[#c9cacc]">RESUME</span></a>        */}
                 </div>
