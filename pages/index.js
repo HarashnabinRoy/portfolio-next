@@ -12,18 +12,25 @@ import { ColorContext } from "../components/shared/Footer/colorContext";
 
 export default function Home() {
     
-    const [showDefaultThemeBar,setShowDefaultThemeBar] = useState(true)
+    const [showUpdates,setShowUpdates] = useState(true)
     const { color } = useContext(ColorContext)
     
     return(
         <ColorProvider>
-        {/* {   showDefaultThemeBar && 
+        
+        {   showUpdates && 
             
             (<div className="text-[#c9cacc] inset-0 flex justify-center items-center text-3xl backdrop-filter backdrop-blur-lg z-10 fixed">
-            Set Default Theme : <DefaultColor />
-            <button onClick={() => setShowDefaultThemeBar(false)} className="fixed flex top-10 right-10 text-sm" style={{color: color}}>Close</button>
+            <div className="flex flex-col">
+                <div className="flex justify-center">What's New <span className="ml-2" style={{color:color}}>?</span></div>
+                <div className="flex justify-center mt-8">Added Themes<span className="ml-2" style={{color:color}}>!!</span></div>
+                <div className="flex">To change them go to Navbar<span className="ml-2" style={{color:color}}>lol</span></div>
+            </div>
+
+            <button onClick={() => setShowUpdates(false)} className="fixed flex top-10 right-10 text-sm" style={{color: color}}>Close</button>
             </div>)
-        } */}
+        }
+
         <div className="snapping font-oxygen bg-[#1d1f21] text-[#c9cacc] min-h-screen">
 
             <Navbar />

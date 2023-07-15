@@ -23,8 +23,7 @@ export default function Navbar() {
                     <a className="underlineEffect">.03 <span className="text-[#c9cacc]">Contact Me</span></a>
                     </Link>
                     <div>
-                        <FontAwesomeIcon icon={ faPalette }/> {" "}
-                        <ColorDropdown />   
+                        <FontAwesomeIcon icon={ faPalette }/> <ColorDropdown />   
                     </div>
                     {/* <a href="/resume" className="underlineEffect">.04 <span className="text-[#c9cacc]">RESUME</span></a>        */}
                 </div>
