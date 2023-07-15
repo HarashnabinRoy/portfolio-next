@@ -18,7 +18,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Features
-- We now have Multiple Themes for the whole website The followin are the list of Themes :
+- We now have Multiple Themes for the whole website The following are the list of Themes :
   
   | Color Name | Hex Code | Color |
   |----------|----------|----------|
