@@ -25,12 +25,12 @@ a {
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #2bbc8a; 
+  background: #c9cacc; 
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2bbc8a; 
+  background: #a2a3a5; 
 }
 
 .logo:hover {
@@ -46,7 +46,8 @@ a {
 
   content: "";
   position: absolute;
-  background-color: #2bbc8a;
+  /* background-color: #2bbc8a; */
+  background-color: #c9cacc;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
@@ -56,9 +57,9 @@ a {
   transition: transform 0.4s ease-out;
 }
 
-.underlineEffect:hover{
+/* .underlineEffect:hover{
   color: #2bbc8a;
-}
+} */
 
 .underlineEffect:hover:after{
   transform: scaleX(1);
@@ -106,14 +107,6 @@ a {
 
 .flip-card-back {
   transform: rotateY(180deg);
-}
-
-.ctext-weed:hover{
-  color: #2bbc8a;
-}
-
-.ctext-pulse:hover {
-  color: #17b8bd;
 }
 
 
