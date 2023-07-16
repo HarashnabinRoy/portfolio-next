@@ -11,7 +11,7 @@ export default function Navbar() {
     return(
         <div className="">
             <div className="text-xs w-full flex items-center px-10 pt-8 justify-between">
-                <div className="text-2xl font-bold logo">Exion<span style={{color:color}}>.</span>dev</div>
+                <div className="text-2xl font-bold logo"><span style={{color:color}}>{"{"}</span>Exion<span style={{color:color}}>.</span>dev<span style={{color:color}}>{"}"}</span></div>
                 <div className={`flex gap-12 p-[10px] text-lg`} style={{color:color}}>
                     <Link  href="/">
                     <a className="underlineEffect">.01 <span className="text-[#c9cacc]">Home</span></a>

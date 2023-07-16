@@ -6,14 +6,24 @@ import Experience from "../components/index/Experience";
 import Footer from "../components/shared/Footer";
 import { ColorProvider } from "../components/shared/Footer/colorContext";
 import ColorDropdown from "../components/shared/Footer/colorDropdown";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { ColorContext } from "../components/shared/Footer/colorContext";
 // import DefaultColor from "../components/shared/defaultColor";
 
 export default function Home() {
     
-    const [showUpdates,setShowUpdates] = useState(true)
-    const { color } = useContext(ColorContext)
+    const [showUpdates,setShowUpdates] = useState(true);
+    const { color } = useContext(ColorContext);
+ 
+    useEffect(() => {
+        const data = window.localStorage.getItem('My_Updates_Portfolio');
+        if(data !== null) setShowUpdates(JSON.parse(data))
+    }, [])
+
+    useEffect(() => {
+        window.localStorage.setItem('My_Updates_Portfolio', JSON.stringify(showUpdates))
+        // console.log('showUpdates', showUpdates);
+    }, [showUpdates])
     
     return(
         <ColorProvider>
