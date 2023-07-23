@@ -36,7 +36,7 @@ export default function ColorDropdown() {
             <option value="#ff7a90">Bento</option>
             <option value="#408e7b">Bouquet</option>
             <option value="#f66e0d">Carbon</option>
-            <option value="#d91c81" className="text-[#d91c81]">Cheesecake</option>
+            <option value="#d91c81" className="text-[#d91c81] px-4">Cheesecake</option>
             <option value="#55c6f0">Sky</option>
         </select>
     )
