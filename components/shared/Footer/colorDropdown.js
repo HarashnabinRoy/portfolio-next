@@ -25,19 +25,19 @@ export default function ColorDropdown() {
 
 
     return (
-        <select onChange={handleColorChange} value={defaultColor} className="hover:cursor-pointer appearance-none outline-none ring-transparent bg-[#1d1f21] origin-bottom" style={{color:color}}>
-            <option value="#2bbc8a">Weed</option>
-            <option value="#17b8bd">Pulse</option>
-            <option value="#e2b714">Serika</option>
+        <select onChange={handleColorChange} value={defaultColor} className="hover:cursor-pointer appearance-none outline-none ring-transparent bg-[#1d1f21] origin-bottom px-10" style={{color:color}}>
+            <option value="#2bbc8a" className="text-[#2bbc8a]">Weed</option>
+            <option value="#17b8bd" className="text-[#17b8bd] bg-[#17b8bd]">Pulse</option>
+            <option value="#e2b714" className="text-[#e2b714]">Serika</option>
             <option value="#00e980" className="text-[#00e980] px-4">Aurora</option>
-            <option value="#79a617">Terminal</option>
-            <option value="#dfd7af">Alduin</option>
-            <option value="#7ebab5">Arch</option>
-            <option value="#ff7a90">Bento</option>
-            <option value="#408e7b">Bouquet</option>
-            <option value="#f66e0d">Carbon</option>
+            <option value="#79a617" className="text-[#79a617]">Terminal</option>
+            <option value="#dfd7af" className="text-[#dfd7af]">Alduin</option>
+            <option value="#7ebab5" className="text-[#7ebab5]">Arch</option>
+            <option value="#ff7a90" className="text-[#ff7a90]">Bento</option>
+            <option value="#408e7b" className="text-[#408e7b]">Bouquet</option>
+            <option value="#f66e0d" className="text-[#f66e0d]">Carbon</option>
             <option value="#d91c81" className="text-[#d91c81] px-4">Cheesecake</option>
-            <option value="#55c6f0">Sky</option>
+            <option value="#55c6f0" className="text-[#55c6f0]">Sky</option>
         </select>
     )
 }
