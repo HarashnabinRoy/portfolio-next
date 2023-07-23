@@ -21,8 +21,8 @@ const AboutMe = () => {
                     <p className="mt-4">I've recently grown an interest in <span style={{color:color}}>Blockchain and Web3</span> and am doing various courses and research work on it.</p>
                     <p className="mt-4">Here are a few technologies that I like to play with: </p>
                 </div>
-                <div className="flex items-center justify-center rounded-lg">
-                    <span className="hoverShadow">
+                <div className="flex rounded-lg">
+                    <span className="hoverShadow flex justify-center items-center">
                         <Image src="/assets/aboutme.jpeg" alt="Picture of me :)" width={300} height={300} className="rounded-lg" />
                     </span>
                 </div>

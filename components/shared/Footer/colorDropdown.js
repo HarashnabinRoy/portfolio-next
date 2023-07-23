@@ -29,7 +29,7 @@ export default function ColorDropdown() {
             <option value="#2bbc8a">Weed</option>
             <option value="#17b8bd">Pulse</option>
             <option value="#e2b714">Serika</option>
-            <option value="#00e980" className="text-[#00e980]">Aurora</option>
+            <option value="#00e980" className="text-[#00e980] px-4">Aurora</option>
             <option value="#79a617">Terminal</option>
             <option value="#dfd7af">Alduin</option>
             <option value="#7ebab5">Arch</option>
