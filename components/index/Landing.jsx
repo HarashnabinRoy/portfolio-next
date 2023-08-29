@@ -8,7 +8,8 @@ const Landing = () => {
     const { color } = useContext(ColorContext);
     
     return(
-        <div className="md:p-20 p-6 min-h-screen">
+        <div className="md:px-[250px] md:pt-40 sm:p-10 p-10  min-h-screen">
+            {/* Default padding was md:p-20 */}
             <h1 className="text-s ml-1" style={{color:color}}>Hi, my name is</h1>  
             <h1 className="text-6xl mt-7 font-bold tracking-tighter text-white">Harashnabin Roy<span style={{color:color}}>.</span></h1>  
             <h1 className="text-6xl mt-9 font-bold tracking-tighter">I build things for the web<span style={{color:color}}>.</span></h1>
