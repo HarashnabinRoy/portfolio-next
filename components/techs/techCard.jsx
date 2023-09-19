@@ -3,6 +3,11 @@ import Image from 'next/image'
 
 const data = [
     {
+        id:"13",
+        src: "/assets/JavaScript.png",
+        title: "JavaScript",
+    },
+    {
         id:"1",
         src: "/assets/MongoDB.png",
         title: "MongoDB",
