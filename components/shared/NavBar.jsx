@@ -19,8 +19,8 @@ export default function Navbar() {
                     <Link  href="/projects">
                     <a className="underlineEffect">.02 <span className="text-[#c9cacc]">Projects</span></a>
                     </Link>
-                    <Link href="/contact">
-                    <a className="underlineEffect">.03 <span className="text-[#c9cacc]">Contact Me</span></a>
+                    <Link href="/techs">
+                    <a className="underlineEffect">.03 <span className="text-[#c9cacc]">Tech Stack</span></a>
                     </Link>
                     <div>
                         <FontAwesomeIcon icon={ faPalette }/> <ColorDropdown />   
