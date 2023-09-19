@@ -26,7 +26,7 @@ export default function ColorDropdown() {
 
     return (
         <select onChange={handleColorChange} value={defaultColor} className="hover:cursor-pointer appearance-none outline-none ring-transparent bg-[#1d1f21] origin-bottom" style={{color:color}}>
-            <option value="#2bbc8a" className="text-[#2bbc8a]">Weed</option>
+            <option value="#2bbc8a" className="text-[#2bbc8a]">Cyberspace</option>
             <option value="#17b8bd" className="text-[#17b8bd]">Pulse</option>
             <option value="#e2b714" className="text-[#e2b714]">Serika</option>
             <option value="#00e980" className="text-[#00e980] px-4">Aurora</option>
