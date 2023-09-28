@@ -32,6 +32,22 @@ const data = [
         github: "https://github.com/agarwalviraj/ge-hack",
     },
     {
+        id: "7",
+        src:"/assets/projects6.jpg",
+        link: "https://github.com/HarashnabinRoy/blog-fullstack",
+        title:"Payment Gateway and Plans selection",
+        techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
+        github: "https://github.com/HarashnabinRoy/blog-fullstack",
+    },
+    {
+        id: "8",
+        src:"/assets/projects6.jpg",
+        link: "https://github.com/HarashnabinRoy/blog-fullstack",
+        title:"Twitter Gold",
+        techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
+        github: "https://github.com/HarashnabinRoy/blog-fullstack",
+    },
+    {
         id: "3",
         src:"/assets/projects3.jpg",
         link: "https://harashnabinroy.github.io/RecipeApp/",
@@ -63,6 +79,8 @@ const data = [
         techs: "EJS CSS EpressJS NodeJS",
         github: "https://github.com/HarashnabinRoy/blog-fullstack",
     },
+
+
 
 ]
 
