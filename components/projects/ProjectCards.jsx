@@ -33,19 +33,19 @@ const data = [
     },
     {
         id: "7",
-        src:"/assets/projects6.jpg",
+        src:"/assets/stripe.png",
         link: "https://github.com/HarashnabinRoy/blog-fullstack",
         title:"Payment Gateway and Plans selection",
         techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
-        github: "https://github.com/HarashnabinRoy/blog-fullstack",
+        github: "https://github.com/HarashnabinRoy/stripe",
     },
     {
         id: "8",
-        src:"/assets/projects6.jpg",
+        src:"/assets/twitter.png",
         link: "https://github.com/HarashnabinRoy/blog-fullstack",
         title:"Twitter Gold",
         techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
-        github: "https://github.com/HarashnabinRoy/blog-fullstack",
+        github: "https://github.com/HarashnabinRoy/ivy",
     },
     {
         id: "3",
