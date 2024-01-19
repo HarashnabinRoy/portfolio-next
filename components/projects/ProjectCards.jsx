@@ -103,7 +103,9 @@ const ProjectCards = () => {
                     </div>
 
                     <div className="flex justify-center px-10 mb-8 mt-16">
-                        <Image src={data.src} width={350} height={200} className="rounded-lg"/>
+                        <a href={data.link} target="_blank">
+                            <Image src={data.src} width={350} height={200} className="rounded-lg hover:scale-150 cursor-pointer transition"/>
+                        </a>
                     </div>
                     
                     <div className="flex justify-center mb-3 text-lg">
