@@ -16,6 +16,14 @@ const data = [
         github: "https://Discords.com",
     },
     {
+        id:"9",
+        src:"/assets/airbnb.png",
+        title:"Hotel Rental: Airbnb",
+        link: "https://hotelrental.vercel.app",
+        techs: "Next14 Prisma Tailwind Nodejs MongoDB",
+        github: "https://github.com/HarashnabinRoy/airbnb"
+    },
+    {
         id:"2",
         src:"/assets/projects2.png",
         title: "HUMACARE",
