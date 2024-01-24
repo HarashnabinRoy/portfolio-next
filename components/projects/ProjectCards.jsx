@@ -16,7 +16,7 @@ const data = [
         github: "https://Discords.com",
     },
     {
-        id:"9",
+        id:"2",
         src:"/assets/airbnb.png",
         title:"Hotel Rental: Airbnb",
         link: "https://hotelrental.vercel.app",
@@ -24,7 +24,23 @@ const data = [
         github: "https://github.com/HarashnabinRoy/airbnb"
     },
     {
-        id:"2",
+        id: "3",
+        src:"/assets/stripe.png",
+        link: "https://stripe-one-alpha.vercel.app",
+        title:"Payment Gateway and Plans selection",
+        techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
+        github: "https://github.com/HarashnabinRoy/stripe",
+    },
+    {
+        id: "4",
+        src:"/assets/twitter.png",
+        link: "https://tweetitup.vercel.app/home",
+        title:"Twitter Gold",
+        techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
+        github: "https://github.com/HarashnabinRoy/ivy",
+    },
+    {
+        id:"5",
         src:"/assets/projects2.png",
         title: "HUMACARE",
         link: "https://humacare.herokuapp.com/",
@@ -32,31 +48,15 @@ const data = [
         github: "https://github.com/HarashnabinRoy/Humacare",
     },
     {
-        id: "3",
+        id: "6",
         src:"/assets/gehack.jpeg",
-        link: "ge-hack.vercel.app/1",
+        link: "https://github.com/agarwalviraj/ge-hack",
         title: "GE Healthcare CLone using AMP",
         techs: "NextJS Tailwind Vercel AMP",
         github: "https://github.com/agarwalviraj/ge-hack",
     },
     {
         id: "7",
-        src:"/assets/stripe.png",
-        link: "https://github.com/HarashnabinRoy/blog-fullstack",
-        title:"Payment Gateway and Plans selection",
-        techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
-        github: "https://github.com/HarashnabinRoy/stripe",
-    },
-    {
-        id: "8",
-        src:"/assets/twitter.png",
-        link: "https://github.com/HarashnabinRoy/blog-fullstack",
-        title:"Twitter Gold",
-        techs: "NextJS Tailwind EpressJS NodeJS RestAPI",
-        github: "https://github.com/HarashnabinRoy/ivy",
-    },
-    {
-        id: "3",
         src:"/assets/projects3.jpg",
         link: "https://harashnabinroy.github.io/RecipeApp/",
         title:"Recipe App",
@@ -64,7 +64,7 @@ const data = [
         github: "https://github.com/HarashnabinRoy/RecipeApp",
     },
     {
-        id: "4",
+        id: "8",
         src:"/assets/projects4.jpg",
         title:"Youtube Clone",
         techs: "ReactJS SemanticsUI",
@@ -72,7 +72,7 @@ const data = [
         link: "https://github.com/HarashnabinRoy/videos-youtube-hooks"
     },
     {
-        id: "5",
+        id: "9",
         src:"/assets/projects5.jpg",
         link: "https://harashnabinroy.github.io/seasons",
         title:"Seasons",
@@ -80,14 +80,14 @@ const data = [
         github: "https://github.com/HarashnabinRoy/Seasons",
     },
     {
-        id: "6",
+        id: "10",
         src:"/assets/projects6.jpg",
         link: "https://github.com/HarashnabinRoy/blog-fullstack",
         title:"Full-Stack Blog",
         techs: "EJS CSS EpressJS NodeJS",
         github: "https://github.com/HarashnabinRoy/blog-fullstack",
     },
-
+// Projects count: 10
 
 
 ]
