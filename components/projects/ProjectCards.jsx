@@ -96,7 +96,7 @@ const ProjectCards = () => {
     return(
         <div className="flex flex-wrap justify-center gap-4">
             {data.map((data, id) => (
-                <div key={id} className="w-[30rem] bg-[#020c1b] text-white relative rounded-[1.25rem] flex-col">
+                <div key={id} className="w-[20rem] md:w-[30rem] bg-[#020c1b] text-white relative rounded-[1.25rem] flex-col">
                     <div className="absolute right-0 mt-8 mr-10 text-[#707071] ">
                         <a href={data.github} target="_blank"><FontAwesomeIcon icon={ faGithub } target="_blank" className="mr-2 hover:text-white text-lg transition duration-300 ease-in-out cursor-pointer"/></a> 
                         <a href={data.link} target="_blank"><FontAwesomeIcon icon={ faArrowUpRightFromSquare } target="_blank" className="hover:text-white text-lg transition duration-300 ease-in-out cursor-pointer"/></a>
@@ -108,11 +108,11 @@ const ProjectCards = () => {
                         </a>
                     </div>
                     
-                    <div className="flex justify-center mb-3 text-lg">
+                    <div className="flex justify-center px-10 text-center mb-3 text-lg">
                         {data.title}
                     </div>
 
-                    <div className="flex flex-wrap justify-center mb-4 mx-10 text-[#707071] text-[15px]">
+                    <div className="flex flex-wrap justify-center mb-4 mx-10 text-[#707071] text-[15px] text-center">
                         {data.techs}
                     </div>
                 </div>
