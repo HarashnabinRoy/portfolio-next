@@ -43,7 +43,7 @@ export default function Navbar() {
                 </div>
             </div>
             {isOpen && (
-                    <div className={`absolute mt-6 rounded-xl shadow-md w-[25vw] overflow-hidden mr-10 right-0 top-14 text-sm bg-[#020c1b]`}>
+                    <div className={`absolute mt-6 rounded-xl shadow-md w-[40vw] md:w-[30vw] overflow-hidden mr-4 md:mr-10 right-0 top-14 text-sm bg-[#020c1b]`}>
                         <div className='flex flex-col cursor-pointer'>
                             <Link href="/">
                                 <a className={`px-4 py-3 transition font-semibold hover:bg-[#383b40] border-b border-neutral-600 `}><span className={`text-[${color}]`}>.01</span> Home</a>
