@@ -16,7 +16,7 @@ export default function Navbar() {
 
     return(
         <div className="relative">
-            <div className="text-xs w-full flex items-center px-10 pt-8 justify-between">
+            <div className="text-xs w-full flex items-center px-4 md:px-10 pt-8 justify-between">
                 <div className="text-2xl font-bold logo"><span style={{color:color}}>{"{"}</span>Exion<span style={{color:color}}>.</span>dev<span style={{color:color}}>{"}"}</span></div>
                 <div className="p-10 text-lg hidden lg:block" style={{color:color}}>
                     <Link  href="/">

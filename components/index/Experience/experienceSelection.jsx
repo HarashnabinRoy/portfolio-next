@@ -99,8 +99,8 @@ const ExperienceSelection = () => {
     }
 
     return(
-            <div className="flex md:flex-row flex-col gap-20 mt-24 mb-16 md:mx-40 mx-6 ">
-                    <div className="flex md:flex-col flex-row buttons">
+            <div className="flex lg:flex-row flex-col gap-10 lg:gap-20 mt-24 mb-16 lg:mx-40 ">
+                    <div className="flex lg:flex-col flex-row buttons">
                         {/* <button style={{backgroundColor: `${background}`}} className=' hover:bg-[#2bbc8a]  py-2 px-6' onClick={handleSelected}>Apple</button> */}
                         <button 
                             style={{
@@ -109,28 +109,28 @@ const ExperienceSelection = () => {
                             // onMouseEnter={(e) => (e.target.style.backgroundColor = color)}
                             // onMouseLeave={(e) => (e.target.style.backgroundColor = '#1d1f21')}
                             
-                            className={`py-2 px-6 border-b border-gray-600`} onClick={()=>handleSelected(1)}>
+                            className={`py-2 px-2 lg:px-6 border-0 lg:border-b border-gray-600`} onClick={()=>handleSelected(1)}>
                                 Discords.com 
                         </button>
                         <button 
                             style={{
                                 backgroundColor: selected === 2 ? color : "#1d1f21"
                             }}  
-                            className={` border-b border-gray-600 py-2 px-6`} onClick={()=>handleSelected(2)}>
+                            className={` border-0 lg:border-b border-gray-600 py-2 px-2 lg:px-6`} onClick={()=>handleSelected(2)}>
                                 Momento LLC
                         </button>
                         <button 
                             style={{
                                 backgroundColor: selected === 3 ? color : "#1d1f21"
                             }} 
-                            className={` border-b border-gray-600 py-2 px-6`} onClick={()=>handleSelected(3)}>
+                            className={` border-0 lg:border-b border-gray-600 py-2 px-2 lg:px-6`} onClick={()=>handleSelected(3)}>
                                 Vetra-Green
                         </button>
                         <button 
                             style={{
                                 backgroundColor: selected === 4 ? color : "#1d1f21"
                             }}
-                            className={`py-2 px-6`} onClick={()=>handleSelected(4)}>
+                            className={`py-2 px-2 lg:px-6`} onClick={()=>handleSelected(4)}>
                                 POR in Clubs
                         </button>
                     </div>
