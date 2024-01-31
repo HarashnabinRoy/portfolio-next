@@ -10,6 +10,7 @@ import { useContext, useEffect, useState } from "react";
 import { ColorContext } from "../components/shared/Footer/colorContext";
 import Spinner from '../components/shared/loader/loader.jsx';
 // import DefaultColor from "../components/shared/defaultColor";
+import ProjectPreview from '../components/index/ProjectPreview.jsx';
 
 export default function Home() {
     
@@ -62,6 +63,9 @@ export default function Home() {
             </div>
             <div className="snapping-child">
                 <Experience />
+            </div>
+            <div>
+                <ProjectPreview />
             </div>
             <div>
                 <Footer />

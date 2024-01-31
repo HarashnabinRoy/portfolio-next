@@ -6,7 +6,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faGitSquare } from '@fortawesome/free-brands-svg-icons';
 
 
-const data = [
+export const ProjectData = [
     {
         id: "1",
         src: "/assets/projects1.jpg",
@@ -95,7 +95,7 @@ const data = [
 const ProjectCards = () => {
     return(
         <div className="flex flex-wrap justify-center gap-4">
-            {data.map((data, id) => (
+            {ProjectData.map((data, id) => (
                 <div key={id} className="w-[20rem] md:w-[30rem] bg-[#020c1b] text-white relative rounded-[1.25rem] flex-col">
                     <div className="absolute right-0 mt-8 mr-10 text-[#707071] ">
                         <a href={data.github} target="_blank"><FontAwesomeIcon icon={ faGithub } target="_blank" className="mr-2 hover:text-white text-lg transition duration-300 ease-in-out cursor-pointer"/></a> 
