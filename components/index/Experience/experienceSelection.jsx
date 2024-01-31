@@ -20,7 +20,7 @@ const ExperienceSelection = () => {
     // let bgColor = '';
     const content21 = (
         <div className="flex flex-col gap-4">
-            <div className="text-xl border-b border-neutral-600 flex flex-row justify-between">
+            <div className="text-xl border-b border-gray-600 flex flex-row justify-between">
                 <div>Discords.com</div>
                 <a href="https://discords.com" target="_blank"><FontAwesomeIcon icon={ faArrowUpRightFromSquare } target="_blank" className="hover:text-white text-sm transition duration-300 ease-in-out cursor-pointer items-center"/></a>
             </div>
@@ -36,7 +36,7 @@ const ExperienceSelection = () => {
 
     const content22 = (
         <div className="flex flex-col gap-4">
-            <div className="text-xl border-b border-neutral-600 flex flex-row justify-between">
+            <div className="text-xl border-b border-gray-600 flex flex-row justify-between">
                 <div>Momento LLC</div>
                 <a href="https://momento.ink" target="_blank"><FontAwesomeIcon icon={ faArrowUpRightFromSquare } target="_blank" className="hover:text-white text-sm transition duration-300 ease-in-out cursor-pointer items-center"/></a>
             </div>
@@ -49,7 +49,7 @@ const ExperienceSelection = () => {
 
     const content23 = (
         <div className="flex flex-col gap-4">
-            <div className="text-xl border-b border-neutral-600 flex flex-row justify-between">
+            <div className="text-xl border-b border-gray-600 flex flex-row justify-between">
                 <div>Vetra Green Technologies</div>
                 <a href="https://vetragreentech.com" target="_blank"><FontAwesomeIcon icon={ faArrowUpRightFromSquare } target="_blank" className="hover:text-white text-sm transition duration-300 ease-in-out cursor-pointer items-center"/></a>
             </div>
@@ -62,7 +62,7 @@ const ExperienceSelection = () => {
 
     const content24 = (
         <div className="flex flex-col gap-4">
-            <div className="text-xl border-b border-neutral-600 flex flex-row justify-between">
+            <div className="text-xl border-b border-gray-600 flex flex-row justify-between">
                 <div>Position of responsibilities</div>
                 <a href="https://blockchainsrm.org" target="_blank"><FontAwesomeIcon icon={ faArrowUpRightFromSquare } target="_blank" className="hover:text-white text-sm transition duration-300 ease-in-out cursor-pointer items-center"/></a>
             </div>
