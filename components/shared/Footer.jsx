@@ -9,16 +9,6 @@ import { ColorContext } from "./Footer/colorContext";
 export default function Footer() {
     const { color } = useContext(ColorContext);
 
-    // const [selectedColor, setSelectedColor] = useState('weed');
-
-    // const handleColorChange = (color) => {
-    //   setSelectedColor(color);
-    // };
-
-    // onMouseEnter={(e) => (e.target.style.color = color)}
-    // onMouseLeave={(e) => (e.target.style.color = "#5d5a5a99")}
-    // #2bbc8a
-
     return(
         <div>
             <div className="text-[#5d5a5a99] flex flex-wrap justify-between mt-16 mb-4 text-xs md:mx-[200px] mx-6 ">

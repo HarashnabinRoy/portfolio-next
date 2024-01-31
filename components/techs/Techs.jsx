@@ -6,7 +6,7 @@ const Techs = () => {
   const { color } = useContext(ColorContext);
 
   return(
-      <div className="md:px-40 px-0 pl-6 mt-24">
+      <div className="md:px-40 px-10 mt-24">
           <div>Here is a few of my <br /> <div className="mt-4" style={{color: color}}>My Tech Stack</div></div>
           <div className="pt-10">
               <TechCard />
