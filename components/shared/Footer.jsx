@@ -79,7 +79,7 @@ export default function Footer() {
                 </div>
                 <div className="flex gap-4 md:my-0 my-4 ">
                     <div>
-                        <FontAwesomeIcon icon={ faCodeBranch } /> v2.0.0 
+                        <FontAwesomeIcon icon={ faCodeBranch } /> v2.1.2 
                     </div>
                     <div style={{color:color}}>
                         <FontAwesomeIcon icon={ faPalette }/> {color}
@@ -88,7 +88,7 @@ export default function Footer() {
             </div>
 
             <div className="flex justify-center text-[#5d5a5a99] text-md mb-4 cursor-pointer">
-                <a href="mailto:harashnabin2002@gmail.com">@Harashnabin Roy 2023</a>
+                <a href="mailto:harashnabin2002@gmail.com">@Harashnabin Roy 2024</a>
             </div>
 
         </div>
