@@ -109,21 +109,21 @@ const ExperienceSelection = () => {
                             // onMouseEnter={(e) => (e.target.style.backgroundColor = color)}
                             // onMouseLeave={(e) => (e.target.style.backgroundColor = '#1d1f21')}
                             
-                            className={`py-2 px-2 lg:px-6 border-0 border-r lg:border-b border-gray-600`} onClick={()=>handleSelected(1)}>
+                            className={`py-2 px-2 lg:px-6 border-0 border-r lg:border-r-0 lg:border-b border-gray-600`} onClick={()=>handleSelected(1)}>
                                 Discords.com 
                         </button>
                         <button 
                             style={{
                                 backgroundColor: selected === 2 ? color : "#1d1f21"
                             }}  
-                            className={` border-0 lg:border-b border-r border-gray-600 py-2 px-2 lg:px-6`} onClick={()=>handleSelected(2)}>
+                            className={` border-0 lg:border-b border-r lg:border-r-0 border-gray-600 py-2 px-2 lg:px-6`} onClick={()=>handleSelected(2)}>
                                 Momento LLC
                         </button>
                         <button 
                             style={{
                                 backgroundColor: selected === 3 ? color : "#1d1f21"
                             }} 
-                            className={` border-0 border-r lg:border-b border-gray-600 py-2 px-2 lg:px-6`} onClick={()=>handleSelected(3)}>
+                            className={` border-0 border-r lg:border-b lg:border-r-0 border-gray-600 py-2 px-2 lg:px-6`} onClick={()=>handleSelected(3)}>
                                 Vetra Green
                         </button>
                         <button 
